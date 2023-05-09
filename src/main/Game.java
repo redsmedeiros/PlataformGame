@@ -9,6 +9,6 @@ public class Game {
     public Game(){
         this.gamePanel = new GamePanel();
         this.gameWindown = new GameWindown(gamePanel);
-
+        gamePanel.requestFocus();
     }
 }
